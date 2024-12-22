@@ -1,0 +1,77 @@
+{
+  "items": [
+    {
+      "url": "/page.tsx",
+      "type": "page",
+      "status": "success",
+      "access": "public",
+      "userType": "all"
+    },
+    {
+      "url": "/api/users/{userId}/blogPosts",
+      "type": "api",
+      "status": "success",
+      "method": "POST"
+    },
+    {
+      "url": "/api/users/{userId}/blogPosts/{blogPostId}",
+      "type": "api",
+      "status": "success",
+      "method": "PATCH"
+    },
+    {
+      "url": "/api/blogPosts",
+      "type": "api",
+      "status": "success",
+      "method": "GET"
+    },
+    {
+      "url": "/api/blogPosts/{blogPostId}",
+      "type": "api",
+      "status": "success",
+      "method": "GET"
+    },
+    {
+      "url": "dashboard/user/blog/create/page.tsx",
+      "type": "page",
+      "status": "success",
+      "userType": "user",
+      "access": "private"
+    },
+    {
+      "url": "dashboard/user/blog/edit/[postId]/page.tsx",
+      "type": "page",
+      "status": "success",
+      "userType": "user",
+      "access": "private"
+    },
+    {
+      "url": "dashboard/user/blog/delete/[postId]/page.tsx",
+      "type": "page",
+      "status": "success",
+      "userType": "user",
+      "access": "private"
+    },
+    {
+      "url": "dashboard/user/blog/view/page.tsx",
+      "type": "page",
+      "status": "success",
+      "userType": "user",
+      "access": "public"
+    },
+    {
+      "url": "/(auth)/register/page.tsx",
+      "type": "page",
+      "status": "success",
+      "access": "public",
+      "userType": "all"
+    },
+    {
+      "url": "/(auth)/login/page.tsx",
+      "type": "page",
+      "status": "success",
+      "access": "public",
+      "userType": "all"
+    }
+  ]
+}
